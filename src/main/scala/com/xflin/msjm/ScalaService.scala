@@ -1,5 +1,5 @@
 package com.xflin.msjm
 
 class ScalaService {
-  def hello = print("Hello from " + classOf[ScalaService].getName)
+  def hello = println("Hello from " + classOf[ScalaService].getName)
 }
